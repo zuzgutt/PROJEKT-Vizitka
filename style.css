@@ -13,4 +13,61 @@ tlačítko Twitter aktivní:	 #0b7bc1
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    background-color: #b2bec3;
+}
 
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d63031;
+    margin-bottom: 30px;
+}
+
+.ramik img {
+    width: 150px;
+    height:150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position:absolute;
+    top: -75px;
+    right: -75px;
+}
+
+.ramik {
+    position: relative;
+    padding: 30px;
+    width: 550px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: darkgrey; 2px 2px 10px;
+    toto mi nefunguje, neviem preco, ale nemam uz chut to dnes riesit :D :D, som stastna ze sa moj vytvor podoba na vysledok a posielam :)
+    */
+}
+
+.socsiete a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    
+}
+
+.twitter {
+    background-color: #1da1f2 ;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.fb {
+    background-color: #3b5998 ;
+
+}
